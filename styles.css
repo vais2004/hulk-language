@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Passion+One&display=swap');
+body{
+    content:"";
+    background: url(/images/wallbreak.png) center no-repeat,url(/images/hulk1.png) left no-repeat,url(/images/hulk2.png) right no-repeat,url("/images/green-brick.jpg") repeat;
+    background-size: 15rem,20rem , 25rem , auto;
+    background-color: #bef264;
+    text-align: center;
+}
+h1,h3{
+    font-family: 'Passion One', cursive;
+    color: #27272a;
+    text-shadow: 5px 5px 6px #3f6212;
+    margin: auto;
+    width: auto;
+    background-color: #bef264;
+    font-size: 4rem;
+    padding-top: 5px;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+textarea{
+    display: inline-block;
+    width: 50%;
+    height: 8rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+#outputText{
+    pointer-events: none;
+    font-weight: bold;
+}
+
+#btn-translate{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    background-color: #e6358d;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 9px #999;
+}
+#btn-translate:hover{
+    background-color: #d164f2;
+}
+#btn-translate:active{
+    background-color: #dae635;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Charm', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 20rem;
+    margin-top: 2rem;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding-inline-start: 2rem;
+}
